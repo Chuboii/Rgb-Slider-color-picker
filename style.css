@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 4rem 3rem;
+    box-sizing: border-box;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+    
+    border-radius: 20px;
+}
+
+.container input{
+    display: inline;
+    display: flex;
+    width: 100%;
+    margin: 1rem 0;
+    margin-left: 1rem;
+    
+}
+
+.container .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.container .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .item #selected{
+    
+    background-color: rgb(129, 131, 131);
+    color: white;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    outline:none;
+    margin: 1rem;
+    border-radius:5px;
+    border:none;
+}
+
+
+.container .item button{
+    
+    padding:1.5rem 1rem;
+    display: flex;
+    width: 50%;
+    text-transform:capitalize;
+    align-items: center;
+    border-radius:5px;
+    justify-content: center;
+        flex-grow: 1;
+
+        height: 20px;
+    margin: .5rem 1rem;
+    border: none;
+    outline: none ;
+    background-color:blue;
+    color: white ;
+}
